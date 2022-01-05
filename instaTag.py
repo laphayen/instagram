@@ -7,16 +7,12 @@ import time
 
 print('=========================================================')
 print('Instagram  Image  Download')
-print('ver.2.0.3')
-print('Chrome:90.0.4430.212')
-print('V8 9.0.257.29')
 print('=========================================================')
-print('')
-print('')
 
-baseUrl = 'https://www.instagram.com/'
-plusUrl = input('Instagram User ID : ')
+baseUrl = 'https://www.instagram.com/explore/tags/'
+plusUrl = input('검색할 태그를 입력하세요 : ')
 url = baseUrl + quote_plus(plusUrl)
+ 
 
 print(url)
 
